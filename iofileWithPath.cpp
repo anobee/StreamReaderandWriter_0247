@@ -34,7 +34,7 @@ int main () {
     //mebuka file dalam mode membaca
     ifstream infile;
     //menunkuk ke sebuah file
-    infile.open("contohfile.txt");
+    infile.open(namafile + ".txt", ios::in);
 
     cout << endl << ">=membuka dan membaca file" << endl;
     //jika file ada maka
