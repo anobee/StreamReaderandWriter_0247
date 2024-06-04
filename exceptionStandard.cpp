@@ -17,6 +17,9 @@ int main() {
         cout << e.what() << endl;
         /*akan dieksekusi karna data pada array hanyamemiliki 3 elemen*/
     }
-    
+    cout << "baris program yang terakhir" << endl;
+    /*penanda 2 : bahwa program berjalan tanpa berhenti 
+    meskipun terjadi kesalahan*/
+    return 0;
     
 }
